@@ -46,7 +46,7 @@ header span {
   align-items: flex-start;
   flex-flow: column wrap;
   background-color: black;
-  height: 10rem;
+  height: 13rem;
   width: 27rem;
   color: white;
 }
@@ -82,6 +82,4 @@ a {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  ;
-
 }
