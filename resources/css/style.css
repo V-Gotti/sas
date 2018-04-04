@@ -1,16 +1,21 @@
+html {
+  font-size: 18px;
+}
+
 body {
   display: flex;
+  flex-flow: column wrap;
   font-size: 18px;
   font-family: helvetica;
 }
-
+/*secret agent header*/
 header {
   display: flex;
   background-color: black;
   width: 100%;
-  padding-left: 10%;
+  padding-left: 10rem;
   align-items: center;
-  height: 60px;
+  height: 3rem;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -18,11 +23,65 @@ header {
 header img {
   height: 2rem;
   padding-left: 0.5rem;
-
 }
 
 header span {
   color: white;
   padding-left: 1rem;
+}
+/*main banner*/
+.logo {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-size: cover;
+  height: 32rem;
+  width: 100%;
+}
+
+.arrival {
+  display: flex;
+  margin-top: 13rem;
+  margin-left: 10rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  background-color: black;
+  height: 10rem;
+  width: 27rem;
+  color: white;
+}
+
+.arrival span {
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.arrival p {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/*nav bar*/
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10rem;
+  height: 3rem;
+  background-color: firebrick;
+}
+
+a {
+  display: flex;
+  padding-right: 9rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  ;
 
 }
