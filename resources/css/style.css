@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  padding-left: 10%;
+  align-items: center;
+  height: 60px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+header img {
+  height: 2rem;
+  padding-left: 0.5rem;
+
+}
+
+header span {
+  color: white;
+  padding-left: 1rem;
+
+}
